@@ -1,0 +1,30 @@
+1. On a cree 4 classe qui vont etre instanciable
+ - chevalier
+ - princesse
+ - Ogre
+ - Lutin
+ Les autres classe ne sont pas 
+ manipulable (instanciable) ne deviennent
+ pas objet donc on ne les pas en tant que classe
+=> on teste dans l'index avec un vardump
+
+2. On a mis les 
+propriété correspondant à l'énoncé
+les getter et les setter
+le constructeur correspondant à l'énoncé
+=> on teste dans l'index avec un vardump
+
+3. On se rend compte que l'on a des proprité 
+similaires pour les 4 classes
+On décide donc de faire de l'héritage.
+Dans la classe Personnage on va mettre les
+ propriétés et méthodes similaires à toutes 
+ les classes héritante
+ Dans le constructeur on va mettre la propriété 
+ santé à 100 parce que tout les personnages 
+ a cette valeurs
+ => on teste
+
+ 4. On va qualifier la classe Personnage de 
+ classe abstraite pour empecher l'insanciation
+  de cette classe
